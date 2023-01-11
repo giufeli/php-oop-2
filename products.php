@@ -1,6 +1,8 @@
 <?php
-
 class products{
+
+    use made;
+
     public $name;
     public $category;
     public $price;
@@ -14,4 +16,6 @@ class products{
         $this->animal_type = $animal_type;
 		
 	}
+
+    
 }
