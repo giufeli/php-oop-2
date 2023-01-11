@@ -1,5 +1,7 @@
 <?php
+include_once __DIR__ . '/traits/made.php';
 class products{
+
 
     use made;
 
